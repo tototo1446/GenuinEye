@@ -1,5 +1,3 @@
-# coding: utf-8
-#cupyに変更済み
 import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import pickle
