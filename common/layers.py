@@ -1,7 +1,6 @@
-# coding: utf-8
 import cupy as cp
-from common.functions import *  # These also need to be updated for cupy
-from common.util import im2col, col2im  # These also need to be updated for cupy
+from common.functions import *  
+from common.util import im2col, col2im  
 
 
 class Relu:
@@ -119,11 +118,9 @@ class BatchNormalization:
         self.momentum = momentum
         self.input_shape = None 
 
-        # Moving average
         self.running_mean = running_mean
         self.running_var = running_var  
         
-        # Temporary attributes used in backward pass
         self.batch_size = None
         self.xc = None
         self.std = None
