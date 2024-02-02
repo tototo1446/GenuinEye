@@ -1,4 +1,3 @@
-# coding: utf-8
 import cupy as cp
 
 def _numerical_gradient_1d(f, x):
