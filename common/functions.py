@@ -1,5 +1,3 @@
-# coding: utf-8
-#cupyに修正済
 import cupy as cp
 
 
